@@ -27,3 +27,8 @@ Subjectivity Score| This is the score that determines if a given text is objecti
 Average Sentence Length| the number of words / the number of sentences
 Percentage of Complex words| the number of complex words / the number of words
 Fog Index| 0.4 * (Average Sentence Length + Percentage of Complex words)
+Average Number of Words Per Sentence| the total number of words / the total number of sentences
+Complex word count| Complex words are words in the text that contain more than two syllables.
+Word Count| We count the total cleaned words present in the text by
+            1. removing the stop words (using stopwords class of nltk package).
+            2. removing any punctuations like ? ! , . from the word before counting.
