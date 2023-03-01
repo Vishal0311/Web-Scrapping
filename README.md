@@ -18,22 +18,17 @@ The objective of this project is to extract textual data articles from the given
   
   ### Definition
   
-   Topic      | Second Header
+   Topic      |  Definition
 ------------- | -------------
 Positive Score| This score is calculated by assigning the value of +1 for each word if found in the Positive Dictionary and then adding up all the values.
-Content Cell  | Content Cell
-
- Positive Score: This score is calculated by assigning the value of +1 for each word if found
-in the Positive Dictionary and then adding up all the values.
-Negative Score: This score is calculated by assigning the value of -1 for each word if found
-in the Negative Dictionary and then adding up all the values. We multiply the score with -1 so
-that the score is a positive number.
-Polarity Score: This is the score that determines if a given text is positive or negative in
+Negative Score| This score is calculated by assigning the value of -1 for each word if found in the Negative Dictionary and then adding up all the values. We multiply the score with -1 so that the score is a positive number.
+Polarity Score|  This is the score that determines if a given text is positive or negative in
 nature. It is calculated by using the formula:
 Polarity Score = (Positive Score – Negative Score)/ ((Positive Score + Negative Score) +
 0.000001)
 Range is from -1 to +1
-2 | Page
+
+
 Subjectivity Score: This is the score that determines if a given text is objective or subjective.
 It is calculated by using the formula:
 Subjectivity Score = (Positive Score + Negative Score)/ ((Total Words after cleaning) +
